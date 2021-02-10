@@ -1,4 +1,4 @@
-# TIC-TAC-TOE.io
+# TIC-TAC-TOE
 
 A simple responsive two player tic tac toe page.
 
