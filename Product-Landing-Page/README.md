@@ -1,4 +1,4 @@
-# Product-Landing-Page.io
+# Product-Landing-Page
 
 A simple responsive Landing page example (for Pepper bank).
 
