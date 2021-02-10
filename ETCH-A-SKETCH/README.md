@@ -1,4 +1,4 @@
-# ETCH-A-SKETCH.io
+# ETCH-A-SKETCH
 
 A simple responsive web page that lets the user enjoy a Etch A Sketch mechanical drawing toy.
 
