@@ -9,5 +9,5 @@ A bunch of web page developed in order to learn HTML, CSS, JavaScript and more.
 - **ETCH A SKETCH** - [Repository](https://github.com/leorrose/Front-End-Development/tree/main/ETCH-A-SKETCH) , [Browser View](https://leorrose.github.io/Front-End-Development/ETCH-A-SKETCH/index.html)
 - **Tribute Page** - [Repository](https://github.com/leorrose/Front-End-Development/tree/main/Tribute-Page) , [Browser View](https://leorrose.github.io/Front-End-Development/Tribute-Page/index.html)
 - **Product Landing Page** - [Repository](https://github.com/leorrose/Front-End-Development/tree/main/Product-Landing-Page) , [Browser View](https://leorrose.github.io/Front-End-Development/Product-Landing-Page/index.html)
-- **Survey Form** - [Repository](https://github.com/leorrose/Front-End-Development/tree/main/Service-Survey) , [Browser View]((https://leorrose.github.io/Front-End-Development/Service-Survey/index.html)
+- **Survey Form** - [Repository](https://github.com/leorrose/Front-End-Development/tree/main/Service-Survey) , [Browser View](https://leorrose.github.io/Front-End-Development/Service-Survey/index.html)
 
