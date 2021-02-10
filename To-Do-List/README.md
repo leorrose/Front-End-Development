@@ -1,4 +1,4 @@
-# To-Do-List.io
+# To-Do-List
 A simple responsive web page that lets the user enjoy a to do list application.
 
 This page was created with <b>React, Javascript, CSS3 and HTML5</b>.
