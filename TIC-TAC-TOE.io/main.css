@@ -1,0 +1,113 @@
+*::-webkit-scrollbar{ 
+    width: 10px;
+}
+*::-webkit-scrollbar-track{ 
+     opacity: 1;
+}
+*::-webkit-scrollbar-thumb{ 
+     background: #888;
+}
+*::-webkit-scrollbar-thumb:hover {
+     background: #555;
+}
+body{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    text-align: center;
+    margin: 10px;
+    background-color: #4D6D9A;
+    color: #EDB5BF;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+main{
+    max-width: 100%;
+}
+#players-name{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    margin: 20px 10px 20px 10px;
+    max-width: 100%;
+}
+.player-name{
+    max-width: 100%;
+}
+input:focus {
+    outline:0;
+}
+button:focus {
+    outline:0;
+}
+.player-name input{
+    padding: 5px;
+    max-width: 100%;
+    border-radius: 20px;
+    border: none;
+}
+#start-bt{
+    margin: 20px 10px 20px 10px;
+    padding: 10px 5px 7px 5px;
+    max-width: 100%;
+    width: 170px;
+    background-color: white;
+    color: #4D6D9A;
+    border-radius: 20px;
+    border: none;
+}
+#grid-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 603px;
+    height: 603px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.inner-div{
+    background-color: #86B3D1;
+    border: solid 0.5px #EDB5BF;
+}
+.inner-div p{
+    text-align: center;
+    font-size: 60px;
+}
+
+footer{
+    margin-top: 40px;
+    max-width: 100%;
+}
+footer p{
+    display: inline-block;
+    font-size: 20px;
+}
+#github-logo{
+    display: inline-block;
+    width: 35px;
+    height: 25px;
+    vertical-align: middle;
+}

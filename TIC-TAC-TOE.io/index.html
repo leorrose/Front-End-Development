@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Tic tac toe </title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+    <header>
+        <h1> TIC TAC TOE </h1>
+    </header>
+    <main>
+        <div id="players-name">
+            <div id="player-one-name" class="player-name"> 
+                <p> Player 1: </p>
+                <input id="player-one-name-input" type="text" required> 
+            </div>
+            <div id="player-two-name" class="player-name"> 
+                <p> Player 2: </p>
+                <input id="player-two-name-input" type="text" required> 
+            </div>            
+        </div>
+        <button id="start-bt"> Start Game! </button>
+        <p id="vs-title"> Player 1 VS Player 2 </p>
+        <div id="grid-wrapper">
+            <div class="inner-div" data-row="0" data-col="0"></div>
+            <div class="inner-div" data-row="0" data-col="1"></div>
+            <div class="inner-div" data-row="0" data-col="2"></div>
+            <div class="inner-div" data-row="1" data-col="0"></div>
+            <div class="inner-div" data-row="1" data-col="1"></div>
+            <div class="inner-div" data-row="1" data-col="2"></div>
+            <div class="inner-div" data-row="2" data-col="0"></div>
+            <div class="inner-div" data-row="2" data-col="1"></div>
+            <div class="inner-div" data-row="2" data-col="2"></div>
+        </div>
+    </main>
+    <footer>
+        <p> <strong>©</strong> Leor Ariel Rose </p>
+        <a href="https://github.com/leorrose" target="_blank">
+            <img id="github-logo" src="resources/githubLogo.png" alt="git Hub Profile" ></img>
+        </a>
+    </footer>
+    <script src='main.js'></script>
+</body>
+</html>
