@@ -1,4 +1,4 @@
-# Survey-Form.io
+# Survey-Form
 
 An example of a responsive survey page.
 
