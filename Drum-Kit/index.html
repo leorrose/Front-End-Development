@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Drum Kit</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+    <header>
+        <h1> DRUM KIT</h1>
+    </header>
+    <main>
+        <div id="drum-kit-wrapper">
+            <div id="clap-div" class="drum-kit-inner-elem" data-sound="clap"> 
+                <p class="keys" data-sound="clap"> A </p>
+                <p data-sound="clap"> CLAP</p>
+            </div>
+            <div id="hihat-div" class="drum-kit-inner-elem"  data-sound="hihat"> 
+                <p class="keys" data-sound="hihat"> S </p>
+                <p data-sound="hihat"> HIHAT</p>
+            </div>
+            <div id="kick-div" class="drum-kit-inner-elem" data-sound="kick"> 
+                <p class="keys" data-sound="kick"> D </p>
+                <p data-sound="kick"> KICK</p>
+            </div>
+            <div id="openhat-div" class="drum-kit-inner-elem" data-sound="openhat"> 
+                <p class="keys" data-sound="openhat"> F </p>
+                <p data-sound="openhat"> OPENHAT</p>
+            </div>
+            <div id="boom-div" class="drum-kit-inner-elem" data-sound="boom"> 
+                <p class="keys" data-sound="boom"> G </p>
+                <p data-sound="boom"> BOOM</p>
+            </div>
+            <div id="ride-div" class="drum-kit-inner-elem" data-sound="ride"> 
+                <p class="keys" data-sound="ride"> H </p>
+                <p data-sound="ride"> RIDE</p>
+            </div>
+            <div id="snare-div" class="drum-kit-inner-elem" data-sound="snare"> 
+                <p class="keys" data-sound="snare"> J </p>
+                <p data-sound="snare"> SNARE</p>
+            </div>
+            <div id="tom-div" class="drum-kit-inner-elem" data-sound="tom"> 
+                <p class="keys" data-sound="tom"> K </p>
+                <p data-sound="tom"> TOM</p>
+            </div>
+            <div id="tink-div" class="drum-kit-inner-elem" data-sound="tink"> 
+                <p class="keys" data-sound="tink"> L </p>
+                <p data-sound="tink"> TINK</p>
+            </div>
+        </div>
+
+        <audio id="clap-player" src="Drum Sounds\\clap.wav"></audio>
+        <audio id="hihat-player" src="Drum Sounds\\hihat.wav"></audio>
+        <audio id="kick-player" src="Drum Sounds\\kick.wav"></audio>
+        <audio id="openhat-player" src="Drum Sounds\\openhat.wav"></audio>
+        <audio id="boom-player" src="Drum Sounds\\boom.wav"></audio>
+        <audio id="ride-player" src="Drum Sounds\\ride.wav"></audio>
+        <audio id="snare-player" src="Drum Sounds\\snare.wav"></audio>
+        <audio id="tom-player" src="Drum Sounds\\tom.wav"></audio>
+        <audio id="tink-player" src="Drum Sounds\\tink.wav"></audio>
+    </main>
+    <footer>
+        <p> <strong>©</strong> Leor Ariel Rose </p>
+        <a href="https://github.com/leorrose" target="_blank">
+            <img id="github-logo" src="resources/githubLogo.png" alt="git Hub Profile" ></img>
+        </a>
+    </footer>
+    <script src='main.js'></script>
+</body>
+</html>

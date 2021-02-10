@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Service Survey</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' type='text/css' media='screen' href='main.css'> 
+    </head>
+
+    <body>
+        <header>
+            <h1 id="title"> Service Survey </h1>
+        </header>
+
+        <div id="form-div">
+            <p id="description"> Please fill the following content:</p>
+            <form id="survey-form" action="#" method="POST">
+                <div class="form-part-div">
+                    <div class="label"><label for="name" id="name-label">* Name: </label> </div>
+                    <div class="inputs">
+                        <input id="name" name="name" class="text-input color-border" type="text" placeholder="Enter your name" required/> 
+                    </div>              
+                </div>
+                <div class="form-part-div">
+                    <div class="label"><label for="email" id="email-label">* Email:</label> </div>
+                    <div class="inputs">
+                        <input id="email" name="email" class="text-input color-border " type="email" placeholder="Enter your email" required/>
+                    </div>                 
+                </div>
+                <div class="form-part-div"> 
+                    <div class="label"><label for="number" id="number-label">* Age:</label> </div>
+                    <div class="inputs">
+                    <input id="number" name="age" class="text-input color-border" type="number" min="0" max="120" placeholder="Enter your age" required/> 
+                    </div>                
+                </div>
+                <div class="form-part-div">
+                    <div class="label"><label for="dropdown"> Education?:</label> </div> 
+                    <div class="inputs">
+                        <select id="dropdown" name="generic-question-one" class="color-border width-control">
+                            <option disabled value="Select an option"> Select an option</option>
+                            <option value="option one" name="generic-question-one-answer"> No degree</option>
+                            <option value="Option two" name="generic-question-one-answer">Bachelor's degree</option>
+                            <option value="Option three" name="generic-question-one-answer">Master's degree</option>
+                            <option value="Option four" name="generic-question-one-answer">Doctoral degree</option>
+                            <option value="Other" name="generic-question-one-answer">Other</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-part-div">
+                    <div class="label"><label for="generic-question-two"> How satisfied were you with are service?:</label> </div>
+                    <div class="inputs">
+                        <div id="generic-question-two"> 
+                            <input value="Option one" name="generic-question-two-answer" type="radio"  checked/> Very dissatisfied <br>
+                            <input value="Option two" name="generic-question-two-answer" type="radio" /> Somewhat dissatisfied <br>
+                            <input value="Option three" name="generic-question-two-answer" type="radio" /> Slightly dissatisfied <br>
+                            <input value="Option four" name="generic-question-two-answer" type="radio" /> Neither satisfied nor dissatisfied <br>
+                            <input value="Option four" name="generic-question-two-answer" type="radio" /> Slightly satisfied<br>
+                            <input value="Option four" name="generic-question-two-answer" type="radio" /> Somewhat satisfied<br>
+                            <input value="Option four" name="generic-question-two-answer" type="radio" /> Very satisfied <br>
+                        </div>
+                    </div>                    
+                </div>
+                <div class="form-part-div">
+                    <div class="label"><label for="generic-question-three"> Wich of the following options best describes your current employment status?:</label> </div> 
+                    <div class="inputs">
+                        <select id="generic-question-three" name="generic-question-three" class="color-border width-control">
+                            <option disabled value="Select an option"> Select an option</option>
+                            <option value="option one" name="generic-question-three-answer"> Employed full time</option>
+                            <option value="Option two" name="generic-question-three-answer"> Employed part time</option>
+                            <option value="Option three" name="generic-question-three-answer"> Retired </option>
+                            <option value="Option four" name="generic-question-three-answer"> Not currently working </option>
+                            <option value="Other" name="generic-question-three-answer">Other</option>
+                        </select>
+                    </div>                    
+                </div>
+                <div class="form-part-div">
+                    <div class="label"><label for="generic-question-four"> Your movie preferences?:</label> </div>  
+                    <div class="inputs">
+                        <div id="generic-question-four"> 
+                            <input value="Option one" name="generic-question-four-answer" type="checkbox"  checked/> Comedy <br>
+                            <input value="Option two" name="generic-question-four-answer" type="checkbox" /> Horror <br>
+                            <input value="Option three" name="generic-question-four-answer" type="checkbox" /> Action <br>
+                            <input value="Option four" name="generic-question-four-answer" type="checkbox" /> Romance <br>
+                            <input value="Option five" name="generic-question-four-answer" type="checkbox" /> Fantasy <br>
+                            <input value="Option six" name="generic-question-four-answer" type="checkbox" /> Drama <br>
+                        </div>
+                    </div>                    
+                </div>
+                <div class="form-part-div">
+                    <div class="label"><label for="additional-info">Additional information:</label> </div> 
+                    <div class="inputs">
+                        <textarea  id="additional-info" name="additional-info" class="text-input color-border" rows="4" cols="50" placeholder="Add any additional information" required></textarea>
+                    </div>                  
+                </div>
+                <div class="form-part-div"> 
+                        <input  id="submit" type="submit"/>
+                </div>
+            </form>
+        </div>
+        <footer>
+            <p> <strong>©</strong> Leor Ariel Rose </p>
+            <a href="https://github.com/leorrose" target="_blank">
+                <img id="github-logo" src="resources/githubLogo.png" alt="git Hub Profile" ></img>
+            </a>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,286 @@
+*::-webkit-scrollbar{ 
+    width: 10px;
+}
+*::-webkit-scrollbar-track{ 
+     opacity: 1;
+}
+*::-webkit-scrollbar-thumb{ 
+     background: #888;
+}
+*::-webkit-scrollbar-thumb:hover {
+     background: #555;
+}
+body{
+    background-color: #4EC5C1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #4EC5C1;
+}
+#div-header{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    margin: 0px 20px 0px 20px;
+}
+#header-img{
+    width: 200px;
+    max-width: 100%;
+    margin: 17px 0px 0px 40px;
+}
+#nav-bar ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    list-style: none;
+}
+#nav-bar ul li{
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.nav-link{
+    padding: 5px 15px 5px 15px;
+    font-size: 20px;
+    text-decoration: none; 
+    color: #EC576B;
+    font-weight: bold;
+}
+.nav-link:hover{
+    background-color: #EC576B;
+    color:#4EC5C1;
+}
+.anchor{
+    display: block;
+    position: relative;
+    top: -200px;
+    visibility: hidden;
+    background-color: black;
+}
+#advantages{
+    width:720px;
+    max-width: 100%;
+    margin: 100px auto 0px auto;
+    text-align: left;
+}
+
+#video{
+    border: none;
+    display: block;
+    width:720px;
+    height: 400px;
+    max-width: 100%; 
+    margin: 30px auto 30px auto;
+}
+#paragraphs{
+    margin: 30px;
+}
+.paragraph{
+    max-width: 100%;
+    background-color: #EC576B;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    margin: 10px;
+    color: white;
+    text-align: justify;
+}
+.paragraph h2{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+#contact{
+    margin-top: 40px;
+}
+#form-div{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; 
+}
+#form-div label{
+    font-size: 18px;
+    font-weight: bold;
+}
+#wrapper{
+    display: block;
+    width: 250px;
+    max-width: 100%;
+}
+#email{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 6px;
+    max-width: 100%;
+    border: solid #4EC5C1 1.5px;
+    border-radius: 10px; 
+    font-size: 18px;
+}
+#submit{
+    display: block;
+    max-width: 100%;
+    background-color: #4EC5C1;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    padding: 7px 12px 7px 12px;
+    font-size: 18px;
+}
+#submit:hover{
+    background-color: rgb(6, 168, 163);
+}
+footer{
+    display: block;
+    margin: 0px auto 0px auto;
+}
+#apps{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: left;
+    margin: 15px 20px 15px 20px;
+    padding: 10px;
+}
+#apple-app-div{
+    max-width: 200px;
+    background-color: #E9B000;
+    border-radius: 20px;
+    margin: 10px 10px 10px 10px;
+    padding: 20px;
+    font-size: 25px;
+    overflow: auto;
+}
+#google-app-div{
+    max-width: 200px;
+    background-color: #E9B000;
+    border-radius: 20px;
+    margin: 10px 10px 10px 10px;
+    padding: 20px;
+    font-size: 25px;
+    overflow: auto;
+}
+#apple-app-image{
+    float: left;
+    background-color: black;
+    width: 40px;
+    padding: 5px;
+    margin-right: 5px;
+}
+#google-app-image{
+    float: left;
+    background-color: black;
+    width: 40px;
+    padding: 5px;
+    margin-right: 5px;
+}
+#apps a{
+    text-decoration: none;
+    color: white;
+}
+
+
+@media only screen and (max-width: 768px){
+    #div-header{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    #nav-bar ul {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        margin: 10px;
+    }
+    #advantages{
+        margin-top: 180px;
+        padding: 20px;
+    }
+    #video{
+        width: 400px;
+        height: 300px;    
+    }
+    #form-div{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;  
+        -webkit-box-align: center;  
+        -ms-flex-align: center;  
+        align-items: center;
+        -webkit-box-pack: stretch;
+        -ms-flex-pack: stretch;
+        justify-content: stretch;
+    }
+    #email{
+        margin-bottom: 10px;
+        margin-top: -5px;
+    }
+    #apps{
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        margin: -15px 30px 10px 60px;
+    }
+}

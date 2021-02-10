@@ -1,0 +1,33 @@
+*::-webkit-scrollbar{ 
+    width: 10px;
+}
+*::-webkit-scrollbar-track{ 
+     opacity: 1;
+}
+*::-webkit-scrollbar-thumb{ 
+     background: #888;
+}
+*::-webkit-scrollbar-thumb:hover {
+     background: #555;
+}
+body{
+    background-color: #85dcbA;
+    color: white;
+    font-size: 40px;
+}
+h1{
+    font-size: 60px;
+}
+.btn{
+    font-size: 40px;
+}
+footer{
+    max-width: 100%;
+}
+footer p{
+    font-size: 30px;
+}
+.github-logo{
+    width: 40px;
+    height: 30px;    
+}

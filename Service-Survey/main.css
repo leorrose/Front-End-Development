@@ -1,0 +1,117 @@
+*::-webkit-scrollbar{ 
+    width: 10px;
+}
+*::-webkit-scrollbar-track{ 
+     opacity: 1;
+}
+*::-webkit-scrollbar-thumb{ 
+     background: #888;
+}
+*::-webkit-scrollbar-thumb:hover {
+     background: #555;
+}
+body{
+    background-color: #4ABDAC;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+header{
+    padding: 15px;
+}
+
+#description{
+    font-size: 20px;
+}
+
+#form-div{
+    background-color: #DFDCE3;
+    border-radius: 20px;
+    max-width: 1000px;
+    padding: 15px;
+    margin:  0px auto 0px auto ;
+}
+
+.form-part-div{
+    padding: 15px;
+}
+.label{
+    display: inline-block;
+    text-align: right;
+    width: 40%;
+}
+.inputs{
+    display: inline-block;
+    text-align: left;
+    width:48%;
+    vertical-align: top;
+}
+textarea{
+    max-width: 100%;
+}
+
+.text-input{
+    width: 250px;
+    max-width: 100%;
+}
+
+#submit{
+    font-weight: bold;
+    width: 150px;
+    height: 40px;
+    max-width: 100%;
+    border-radius: 20px;
+    border: 1.5px solid #4ABDAC;
+    background-color: #F7B733;
+}
+
+.color-border {
+    border: 1.5px solid #4ABDAC ;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.width-control{
+    width: 250px;
+    max-width: 100%;
+}
+
+footer{
+    margin-top: 40px;
+    max-width: 100%;
+}
+footer p{
+    display: inline-block;
+    font-size: 20px;
+}
+#github-logo{
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+[type="checkbox"], [type="radio"], select{
+    cursor: pointer;
+    margin: 0px 0px 10px 10px;
+}
+
+@media only screen and (max-width: 678px){
+    .label{
+        display: block;
+        text-align: center;
+        margin: 0px auto 0px auto;
+        padding: 10px;
+    }
+    .inputs{
+        display: block;
+        text-align: center;
+        margin: 0px auto 0px auto;
+    }
+
+    [type="checkbox"], [type="radio"], select{
+        cursor: pointer;
+        margin: 10px 0px 10px 10px;
+    }
+}
