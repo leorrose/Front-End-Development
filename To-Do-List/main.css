@@ -1,0 +1,222 @@
+*::-webkit-scrollbar{ 
+    width: 10px;
+}
+*::-webkit-scrollbar-track{ 
+     opacity: 1;
+}
+*::-webkit-scrollbar-thumb{ 
+     background: #888;
+}
+*::-webkit-scrollbar-thumb:hover {
+     background: #555;
+}
+body{
+    max-width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    text-align: center;
+    background-color: #E27D60;
+    color: white;
+}
+#root{
+    max-width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+header{
+    max-width: 100%;
+}
+header h1{
+
+    max-width: 100%;
+}
+main{
+    padding: 20px;
+    width: 800px;
+    height: 600px;
+    max-width: 100%;
+    max-height: 100%;
+    background-color: #41B3A3;
+    overflow: auto;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.add-task-form{
+    margin: 10px;
+    padding:10px;
+    max-width: 100%;
+}
+.task-name-tf{
+    margin: 5px;
+    padding: 3px;
+    width: 350px;
+    max-width: 100%;
+    border-radius: 7px;
+    border: solid 0.5px #E27D60;
+    background-color: #E8A87C;
+    color: white;
+    font-size: 20px;  
+}
+.task-name-tf::selection{
+    background: #41B3A3;
+}
+.task-name-tf:focus {
+    outline: 0;
+}
+.task-name-tf::-webkit-input-placeholder {
+    color:#C38D9E;
+}
+.task-name-tf:-ms-input-placeholder {
+    color:#C38D9E;
+}
+.task-name-tf::-ms-input-placeholder {
+    color:#C38D9E;
+}
+.task-name-tf::placeholder {
+    color:#C38D9E;
+}
+.task-name-tf:hover {
+    background-color:#E27D60;
+    border-color: #E8A87C;
+}
+.add-task-bt{
+    margin: 5px;
+    padding: 3px;
+    width: 50px;
+    max-width: 100%;
+    border-radius: 7px;
+    border: solid 0.5px #E27D60;
+    background-color: #E8A87C;
+    color: white;
+    font-size: 20px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.add-task-bt:hover {
+    background-color:#E27D60;
+    border-color: #E8A87C;
+}
+.task-wrapper{
+    width: 600px;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-align: left;
+    border: solid 0.5px #E27D60;
+    padding: 20px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.task-wrapper p{
+    font-size: 25px;
+    max-width: 100%;
+    word-wrap: break-word;
+}
+.task-wrapper p .task-check-box{
+    margin-right: 5px;
+    display: inline-block;
+    vertical-align: middle;
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    font-size: initial;
+    background-color: #E8A87C;
+    color: white;
+    text-align: center;
+    
+}
+.task-wrapper .task-delete-bt{
+    width: 50px;
+    height: 30px;
+    max-width: 100%;
+    max-height: 100%;
+    font-size: 16px;
+    border-radius: 7px;
+    border: solid 0.5px #E27D60;
+    background-color: #E8A87C;
+    color: white;
+}
+.task-wrapper .task-delete-bt:hover {
+    background-color:#E27D60;
+    border-color: #E8A87C;
+}
+.checked{
+    background-color: #E27D60 !important;
+}
+.done-task{
+    text-decoration: line-through;
+}
+button:focus{
+    outline: 0;
+}
+footer{
+    margin-top: 40px;
+    max-width: 100%;
+}
+footer p{
+    display: inline-block;
+    font-size: 20px;
+}
+.github-logo{
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+@media only screen and (max-width:400px){
+    .task-wrapper p .task-check-box{
+        display: block;
+    }
+    .task-wrapper{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+    .task-wrapper .task-delete-bt{
+        width: 80px;
+    }
+}
