@@ -1,4 +1,4 @@
-# Drum-Kit.io
+# Drum-Kit
 
 A simple responsive drum kit page that lets the user enjoy a playing the drums.
 
