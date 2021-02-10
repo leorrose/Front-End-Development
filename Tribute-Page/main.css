@@ -1,0 +1,80 @@
+*::-webkit-scrollbar{ 
+    width: 10px;
+}
+*::-webkit-scrollbar-track{ 
+     opacity: 1;
+}
+*::-webkit-scrollbar-thumb{ 
+     background: #888;
+}
+*::-webkit-scrollbar-thumb:hover {
+     background: #555;
+}
+body{
+    text-align: center;
+    color: white;
+    background-color:rgba(212, 129, 102, 0.9);
+}
+#main{
+    background-color:  rgba(55, 58, 54, 0.7);
+    border-radius: 20px;
+    margin:20px 10px 20px 10px;
+    padding: 20px;
+}
+header{
+    padding: 20px 0px 1px 0px;
+    font-family: "Bookman", "Palatino", "Georgia" ;
+}
+
+#img-div{
+    background-color: rgba(55, 58, 54, 0.9);
+    margin: 20px 5px 10px 5px; 
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#image{
+    max-width: 100%;
+    max-height: 100%;
+    padding-top: 15px;
+    border-radius: 20px;
+    margin: 0px auto 0px auto;
+    display: block;
+}
+
+p{
+    font-size: 17px;
+}
+ul{
+    max-width: 500px;
+    margin: 0px auto 0px auto;
+}
+li{
+    text-align: left;
+    padding: 10px 0px 10px 0px;
+}
+
+#tribute-info p{
+    max-width: 600px;
+    margin: 0px auto 0px auto;
+    padding: 40px 0px 10px 0px;
+}
+
+#tribute-link{
+    color: rgba(212, 129, 102, 0.9);
+}
+
+footer{
+    margin-top: 40px;
+    max-width: 100%;
+}
+footer p{
+    display: inline-block;
+    font-size: 20px;
+}
+#github-logo{
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    vertical-align: middle;
+}

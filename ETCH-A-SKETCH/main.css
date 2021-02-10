@@ -1,0 +1,132 @@
+*::-webkit-scrollbar{ 
+    width: 10px;
+}
+*::-webkit-scrollbar-track{ 
+     opacity: 1;
+}
+*::-webkit-scrollbar-thumb{ 
+     background: #888;
+}
+*::-webkit-scrollbar-thumb:hover {
+     background: #555;
+}
+body{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    margin: 10px;
+    max-width: 100%;
+    max-height: 100%;
+    background-color: #D7CEC7;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+header{
+    margin: 0px 10px 0px 10px;
+    width: 600px;
+    max-width: 100%;
+}
+header h1{
+    color: white;
+    padding: 10px;
+}
+main{
+    max-width: 100%;
+    max-height: 100%;
+}
+#main-div{
+    display: grid;
+    margin: 0px 10px 0px 10px;
+    padding: 0px;
+    height: 600px;
+    width: 600px;
+    max-height: 100%;
+    max-width: 100%;
+    background-color: white;
+}
+.inner-div{
+    max-width: 100%;
+    max-height: 100%;
+    background: white;
+}
+#controls-div{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+    margin: 20px 10px 20px 10px;
+    max-width: 100%;
+    width: 600px;
+    color: white;
+}
+.buttons{
+    margin: 5px;
+    padding: 5px;
+    width: 220px;
+    max-width: 100%;
+    border-radius: 20px;
+    background-color: #76323F;
+    color: white;
+    border: none;
+}
+#color-input{
+    margin: 5px;
+    padding: 7px;
+    width: 100px;
+    max-width: 100%;
+    border-radius: 20px;
+    background-color: #76323F;
+    border: none;
+}
+
+footer{
+    margin-top: 40px;
+    max-width: 100%;
+}
+footer p{
+    display: inline-block;
+    font-size: 20px;
+}
+#github-logo{
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+@media only screen and (max-width:600px){
+    #controls-div{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-line-pack: center;
+        align-content: center;
+    }
+    #color-input{
+        width: 210px;
+    }
+}
