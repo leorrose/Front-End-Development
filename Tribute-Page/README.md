@@ -1,4 +1,4 @@
-# Tribute-Page.io
+# Tribute-Page
 
 A simple responsive tribute page for Stan lee.
 
